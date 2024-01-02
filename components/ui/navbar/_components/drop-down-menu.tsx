@@ -30,7 +30,8 @@ import {
     Smile,
     Sparkles,
     UserCircle2,
-    UserPlus
+    UserPlus,
+    ScreenShare
 } from 'lucide-react';
 
 interface DropDownMenuProps {
@@ -60,6 +61,111 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
                                 Team Alignment
                             </div>
                         </Link>
+                        <Link href="/sales" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <DollarSign className='h-6 w-6 mr-4 text-green-400'/>
+                            </div>
+                            <div>
+                                Sales
+                            </div>
+                        </Link>
+                        <Link href="/engineering" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-indigo-400'/>
+                            </div>
+                            <div>
+                                Engineering
+                            </div>
+                        </Link>
+                        <Link href="/design" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <PaintBucket className='h-6 w-6 mr-4 text-blue-400'/>
+                            </div>
+                            <div>
+                                Design
+                            </div>
+                        </Link>
+                        <Link href="/marketing" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <BarChart className='h-6 w-6 mr-4 text-rose-400'/>
+                            </div>
+                            <div>
+                                Marketing
+                            </div>
+                        </Link>
+                        <Link href="/product-management" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-slate-400'/>
+                            </div>
+                            <div>
+                                Product Management
+                            </div>
+                        </Link>
+                        <Link href="/support" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Support
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Veca AI
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Enterprice
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Insert Here
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Insert Here
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Insert Here
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Insert Here
+                            </div>
+                        </Link>
+                        <Link href="/insert-here" className='flex pt-10' onClick={handleLinkClick}>
+                            <div>
+                                <Code className='h-6 w-6 mr-4 text-amber-400'/>
+                            </div>
+                            <div>
+                                Insert Here
+                            </div>
+                        </Link>
+
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
